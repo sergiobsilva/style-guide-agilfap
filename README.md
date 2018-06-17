@@ -1073,7 +1073,7 @@ Nessas situações, sempre deixe um comentário explicando por que você está u
 
 Para evitarmos desrespeito a hierarquias de CSS, nunca é demais lembrar que as mesmas afetam os elementos de dentro para fora, então, sabendo disso, segue-se a regra de respeito de inline / incorporado / externo / linkados / importados respectivamente, sendo assim os estilos que mais afetarão os elementos são os estilos em linha, logo, deverão ser evitados se escritos em código estático como HTML, visto que esta atribuição já caberá aos frameworks que serão utilizados no projeto (Angular 6). Então, seguindo uma regra básica para o nosso projeto, a primeira coisa a ser colocada nos códigos serão o tamanho da fonte (que afetará a altura) em seguida a altura da linha que esta diretamente relacionada aos elementos tamanho da fonte ou tamanho da fonte herdada (dependendo da unidade que for usada). O próximo item é o comprimento do conteúdo determinado pelas propriedade Width e Height. Por último caso existam vão ser inseridos tamanho da borda, margem e o posicionamento das propriedades.
 
-  -Propriedades de Texto
+  - Propriedades de Texto
 
   ```css
   line-height
